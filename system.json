@@ -79,7 +79,7 @@
       "banner": "./systems/dragonbane/art/dragonbane-banner.webp"
     },
     {
-    "name": "official-soundtrack-by-andreas-lundstrom",
+      "name": "official-soundtrack-by-andreas-lundstrom",
       "label": "Official Soundtrack by Andreas Lundström",
       "path": "packs/official-soundtrack-by-andreas-lundstrom",
       "type": "Playlist",
@@ -88,7 +88,6 @@
       "system": "dragonbane",
       "banner": "./systems/dragonbane/art/audio/ost/ost-banner.webp"
     }
-
   ],
   "initiative": "1d20",
   "grid": {
@@ -100,11 +99,20 @@
   "background": "systems/dragonbane/art/dragonbane-splash.webp",
   "url": "https://github.com/pafvel/dragonbane",
   "manifest": "https://github.com/pafvel/dragonbane/releases/latest/download/system.json",
-  "download": "https://github.com/pafvel/dragonbane/releases/download/v2.0/dragonbane.zip",
+  "download": "https://github.com/pafvel/dragonbane/releases/download/v2.0.beta2/dragonbane.zip",
   "flags": {
     "hotReload": {
-      "extensions": ["css", "html", "hbs", "json"],
-      "paths": ["dragonbane.css", "templates", "lang"]
+      "extensions": [
+        "css",
+        "html",
+        "hbs",
+        "json"
+      ],
+      "paths": [
+        "dragonbane.css",
+        "templates",
+        "lang"
+      ]
     }
   },
   "relationships": {
